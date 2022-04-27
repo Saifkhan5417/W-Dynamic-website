@@ -2,6 +2,14 @@
 *{
     max-height: 100vh;
 }
+.temp_position{
+    background-color: rgb(71, 75, 78);
+    padding: 10px;
+    border-radius: 20%;
+    position:absolute;
+    top: 60%;
+    right:50%;
+}
 body{
     overflow: hidden;
    max-height: 100%;
