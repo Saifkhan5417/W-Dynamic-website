@@ -16,7 +16,7 @@ const getDateTime = () => {
   let newMin = getTime.getMinutes();
   let newsec = getTime.getSeconds();
     console.log(setTimeout( newsec, 1000));
-  if (newMin < 10) {
+  if (newMin&&newsec < 10) {
     time.innerHTML = newTime + ":" + 0 + newMin+":"+ 0 +newsec;
   } else {
     time.innerHTML = newTime + ":" + newMin+":"+newsec;
